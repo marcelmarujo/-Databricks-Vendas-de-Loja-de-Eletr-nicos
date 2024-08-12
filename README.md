@@ -1,6 +1,6 @@
 ## Projeto Databricks: Ingestão + Análise de Vendas de uma loja de Eletrônicos
 #### Schema das Tabelas do Projeto
-<img src="https://github.com/marcelmarujo/Databricks-Vendas-Loja-Eletronicos/blob/master/Schema%20-%20Vendas%20Eletr%C3%B4nicos.jpeg?raw=true" alt="Schema do Projeto" width="400" />
+<img src="https://github.com/marcelmarujo/Databricks-Vendas-Loja-Eletronicos/blob/master/Schema%20-%20Vendas%20Eletr%C3%B4nicos.jpeg?raw=true" alt="Schema do Projeto" width="500" />
 
 ### Passo a Passo da Execução:
 
