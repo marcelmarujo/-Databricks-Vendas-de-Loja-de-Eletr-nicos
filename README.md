@@ -5,11 +5,11 @@
 ### Passo a Passo da Execução:
 
 1. **Inicialização e Configuração**
-   - Inicia uma `SparkSession` com o nome "Exemplo de Dataset".
-   - Importa funções necessárias do PySpark para manipulação de dados e criação de funções definidas pelo usuário (UDF).
+   - Criação de workspace e notebook, associação de cluster (Configs Padrão) e início de `SparkSession`.
+   - Importar funções necessárias do PySpark para manipulação de dados e criação de UDFs.
 
 2. **Criação e Manipulação do DataFrame de Vendas**
-   - Define um conjunto de dados de exemplo contendo informações sobre vendas em uma loja.
+   - Importa e define o conjunto de dados contendo informações sobre vendas em uma loja.
    - Cria um DataFrame `df_Vendas_Loja1` a partir dos dados fornecidos.
    - Adiciona uma coluna `preco_total` que calcula o valor total da transação multiplicando a quantidade pelo preço unitário.
    - Adiciona uma coluna `País_cliente` com um país aleatório para cada linha usando uma função UDF.
@@ -40,4 +40,4 @@
 
 8. **Identificação do Cliente Mais Rentável**
    - Agrupa os dados mesclados por nome do cliente e calcula o valor total gasto por cada cliente.
-   - Ordena os clientes pelo valor total gasto e exibe os resultados, mostrando o cliente que mais consumiu.
+   - Ordena os clientes pelo valor total gasto e exibe os resultados, mostrando o nome do cliente responsável pelo maior faturamento.
